@@ -70,8 +70,17 @@ namespace Creational.Factories
             drink.Consume();
             Console.WriteLine(" \n ****************************** \n");
             #endregion
-            Console.ReadKey();
 
+            #region Coding Exercise
+            Console.WriteLine("Abstract Factory Coding Exercise");
+            var person = new PersonFactory();
+            var p1 = person.CreatePerson("Taruma");
+            var p2 = person.CreatePerson("Alice");
+            Console.WriteLine($"{p1.Id}: {p1.Name}");
+            Console.WriteLine($"{p2.Id}: {p2.Name}");
+            #endregion
+
+            Console.ReadKey();
         }
     }
 }
