@@ -67,7 +67,7 @@ namespace Creational.Prototype
 
             //Using objects from another namespace to show that xml copy does not need objects marked as [Serializable]
             var xJohn = new Person(new[] { "John", "smith" }, new Address("London Road", 123));
-            var xJane= xJohn.DeepCopyXml();
+            var xJane = xJohn.DeepCopyXml();
             xJane.Address.HouseNumber = 321;
             xJane.Names[0] = "Jane";
 
@@ -76,6 +76,22 @@ namespace Creational.Prototype
 
             Console.WriteLine(" \n ****************************** \n");
             #endregion
+
+            #region Prototype Coding Exercise
+            Console.WriteLine("Coding Exercise");
+            var line = new Line
+            {
+                Start = new Point { X = 10, Y = 12 },
+                End = new Point { X = 23, Y = 26 }
+            };
+            var newLine = line.DeepCopy();
+            newLine.Start.X = 99;
+            newLine.End.Y = 44;
+
+            Console.WriteLine(line.Start.X);
+            Console.WriteLine(newLine.Start.X);
+            #endregion
+
             Console.ReadKey();
 
         }
