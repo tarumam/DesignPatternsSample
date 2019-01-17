@@ -21,6 +21,6 @@ A pattern describes a problem that occurs repeatedly, proposes a solution and it
 
 ###### Structural Patterns:
 - **Adapter**: Give us the interface that we require from the interface we have. It's a construct which adapts an existing interface X to conform to the required interface Y.
-
+- **Bridge**: A mechanism that decouples an interface (hierarchy) from an implementation (hierarchy).
 ###### Behavioral Patterns:
 - **Chain of Responsibility**: It can be implemented as a bunch of references from a component pointing to another, composing a chain. This chain can be programmatically broken if you wish.
