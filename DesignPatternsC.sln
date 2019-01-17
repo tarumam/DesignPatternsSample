@@ -29,9 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavioral.ChainOfResponsab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Adapter", "Structural.Adapter\Structural.Adapter.csproj", "{A1A661A1-0DBB-442A-A2E1-10A1B3AC1250}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Adapter.Test", "Structural.Adapter.Test\Structural.Adapter.Test.csproj", "{CC3001AF-974D-4602-8208-D35EA74CD4E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Adapter.Test", "Structural.Adapter.Test\Structural.Adapter.Test.csproj", "{CC3001AF-974D-4602-8208-D35EA74CD4E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Bridge", "Structural.Bridge\Structural.Bridge.csproj", "{AA6691D9-2485-42C0-82D2-A4239432ADF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Bridge", "Structural.Bridge\Structural.Bridge.csproj", "{AA6691D9-2485-42C0-82D2-A4239432ADF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Composite", "Structural.Composite\Structural.Composite.csproj", "{6DB4A50A-EEFF-4A80-9044-DD848CB474F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Composite.Test", "Structural.Composite.Test\Structural.Composite.Test.csproj", "{6D1C1089-E6C5-4395-8D24-B5B33F03EC59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{AA6691D9-2485-42C0-82D2-A4239432ADF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA6691D9-2485-42C0-82D2-A4239432ADF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA6691D9-2485-42C0-82D2-A4239432ADF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB4A50A-EEFF-4A80-9044-DD848CB474F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB4A50A-EEFF-4A80-9044-DD848CB474F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB4A50A-EEFF-4A80-9044-DD848CB474F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB4A50A-EEFF-4A80-9044-DD848CB474F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1C1089-E6C5-4395-8D24-B5B33F03EC59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1C1089-E6C5-4395-8D24-B5B33F03EC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1C1089-E6C5-4395-8D24-B5B33F03EC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1C1089-E6C5-4395-8D24-B5B33F03EC59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
